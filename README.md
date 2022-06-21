@@ -2,7 +2,7 @@
 
 Hello!
 
-This is literally just a webiste I built as a way to remember how to use HTML and CSS and the smallest amount of Java.
+This is literally just a webiste I built as a way to remember how to use HTML and CSS and the smallest amount of JavaScript.
 
 I did not follow a lot of conventions as I really jsut wanted this website out fast for helping with job hunting. 
 
