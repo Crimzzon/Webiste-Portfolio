@@ -11,3 +11,6 @@ Feel free to use it! I don't care, take out my words and coloring and projects a
 Oh! I'm working on getting it secured, I don't know why its taking so long though. 
 
   -Michael
+
+
+P.S. A mobile version is coming soon!
