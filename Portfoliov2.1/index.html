@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <title>Michael Reid Portfolio</title>
+    <link rel="shortcut icon" href="img/hunter-logo-transparent-red-112.png"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<header>
+    <section>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#top">#home</a></li>
+                    <li><a href="#aboutme">#about me</a></li>
+                    <li><a href="#experience">#experience</a></li>
+                    <li><a href="#projects">#projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</header>
+<body>
+    <a name="top"></a>
+    <section class="content">
+        <div id = "intro" class="intro">
+        <h1>hello, I'm <span class="red-text">Michael</span></h1>
+        <p>I would like to be a software developer based in <a href="https://www.calgary.ca/home.html" target="_blank" rel="noopener" rel="norefer" class="red-text-animate">Calgary</a> Alberta.
+            <br>I'm very interested in video game development, full-stack
+            <br>development and learning how to build/ impliment AI systems!
+        </p>
+        <p>Feel free to reach out!</p>
+        <a href="mailto:michaelwileyr@gmail.com" class="contact-btn">Get in touch!</a>
+        </div>
+        <div class="info aboutme">
+            <a name="aboutme"></a>
+            <h1># about me <hr></h1>
+            <p>I studied electonic engineering technology at <a href="https://www.sait.ca/" target="_blank" rel="noopener" rel="norefer" class="red-text-animate">SAIT</a> in <a href="https://www.calgary.ca/home.html" target="_blank" rel="noopener" rel="norefer" class="red-text-animate">Calgary</a> 
+                <br style="margin-bottom:5px;">for two years starting in 2018 and <span class="red-text">graduating</span> in <span class="red-text">2020</span>. All while I had been learning about 
+                different programming languages since I was 16, 7 years ago. Throughout that whole time I thought I was interested in electronics
+                but really it was the software, now im putting all my focus into getting a career in software!
+
+                </p>
+            <h3>Here are some langauges I enjoy using!</h3>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Lua</li> 
+                    <li>C / C#</li> 
+                    <li>LabView</li> 
+                </ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Lua</li> 
+                    <li>SQL</li> 
+                    <li>R</li> 
+                </ul>
+        </div>
+        <div class="info experience">
+            <a name="experience"></a>
+            <h1># experience <hr></h1>
+            <div class="expFormat">
+                <div class="button-group">
+                    <button id="exp1">Blackline Safety</button>
+                    <button id="exp2">U Technology Corp.</button>
+                    <button id="exp3">DRS Technologies</button>
+                    <button id="exp4">Education</button>
+                </div>
+                <div id="expDis" class="expDisplay">
+                    <h4>Electronics Technician @ <a href="https://www.blacklinesafety.com/" target="_blank" rel="noopener" rel="norefer" class="red-text-animate">Blackline Safety</a></h4>
+                    <h5>March 2021 - July 2021</h5>
+                    <ul>
+                        <li>Programmed new PCB cut patterns using the CNC machines on board programming tool.</li>
+                        <li>Optimized old PCB cut patterns reducing milling times by on average 45 seconds.</li>
+                        <li>Operated a LabView program and its DAQ to complete tests and verifications on complete boards.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class = "info projects">
+            <a name="projects"></a>
+            <h1># projects <hr></h1>
+            <p>These are just some of my projects throughout the years,
+                <br>unfortunatly nearly all were lost due to my old computers 
+                <br>hard drive corrupting. Nevertheless! I really enjoy making 
+                <br>these in my free time and am learning everyday how to make 
+                <br>them better, faster and more responsive!
+            </p>
+            <div class="projects-format">
+                <div class="project-box">
+                    <h1>Sait Capstone Project</h1>
+                    <p>A heart rate monitor made from the ground up, programmed on a ARM board using C and designed in Altium.
+                    </p>
+                    <p>C</p>
+                    <a href="https://github.com/Crimzzon/Heart-Rate-Monitor-for-STM32F405RG-MCU" target="_blank" rel="noopener" rel="norefer" class="github-btn">Github</a>
+                </div>
+                <div class="project-box">
+                    <h1>Black Jack!</h1>
+                    <p>A fun little programmed made as a refresher to Python. Not much to be said here!
+                    </p>
+                    <p>Python</p>
+                    <a href="https://github.com/Crimzzon" target="_blank" rel="noopener" rel="norefer" class="github-btn">Github</a>
+                </div>
+                <div class="project-box">
+                    <h1>Website Portfolio</h1>
+                    <p>A webiste made to demonstrate my HTMl, CSS and Javascript skills also to have a copy my skills out there for recruiters!
+                    </p>
+                    <p>HTML, CSS, Javascript</p>
+                    <a href="#top" target="_blank" rel="noopener" rel="norefer" class="github-btn">Webpage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+<script>
+    document.getElementById("exp1").onclick = function (){
+        document.getElementById("expDis").innerHTML = "<h4>Electronics Technician @ <a href='https://www.blacklinesafety.com/' target='_blank' rel='noopener' rel='norefer' class='red-text-animate'>Blackline Safety</a></h4>"
+        + "<h5>March 2021 - July 2021</h5>"
+        + "<ul>"
+        + "<li>Programmed new PCB cut patterns using the CNC machines on board programming tool.</li>"
+        + "<li>Optimized old PCB cut patterns reducing milling times by on average 45 seconds.</li>"
+        + "<li>Operated a LabView program and its DAQ to complete tests and verifications on complete boards.</li>"
+        + "</ul>";
+        }
+    document.getElementById("exp2").onclick = function (){
+        document.getElementById("expDis").innerHTML = "<h4>Warehouse/Electronics Assembly Coordinator @ <a href='https://www.utechnology.ca/' target='_blank' rel='noopener' rel='norefer' class='red-text-animate'>U Technology Corp.</a></h4>"
+        + "<h5>November 2022 - December 2022</h5>"
+        + "<ul>"
+        + "<li>Trouble shooted <a class='red-text-animate' href='https://teser.ca/the-teser-act-d3/' target='_blank' rel='noopener' rel='norefer' >The Teser ACT D3 TM</a> during its prototyping phase, using an oscilliscope probing its integrated ARM MCU pins.</li>"
+        + "<li>Pre-programmed colors into remotes for clients disired colors using the remotes integrated programming system.</li>"
+        + "<li>Created Excel spreadsheet programs to complete tests on lighting products looking at: its color shift over time, how long the light lasts, its UV-B output over time etc</li>"
+        + "</ul>";
+    }
+    document.getElementById("exp3").onclick = function (){
+        document.getElementById("expDis").innerHTML = "<h4>Summer Student Assistent Technician @ <a href='https://www.leonardodrs.com/' target='_blank' rel='noopener' rel='norefer' class='red-text-animate'>DRS Technologies</a></h4>"
+        + "<h5>May - Augest 2017 and 2018</h5>"
+        + "<ul>"
+        + "<li>Used premade Excel spreadsheets to complete shot analysis directly after training flights for pilots.</li>"
+        + "<li>Converted videos taken from training mission by on site threats from mp3's to DVD to comply with military standerds.</li>"
+        + "<li>Tested and trouble shooted new software being made to replace the outdated Excel one</li>"
+        + "</ul>";
+    }
+    document.getElementById("exp4").onclick = function (){
+        document.getElementById("expDis").innerHTML = "<h4>Programming @ <a href='https://www.sait.ca/programs-and-courses/diplomas/electronics-engineering-technology' target='_blank' rel='noopener' rel='norefer' class='red-text-animate'>SAIT</a></h4>"
+        + "<h5>September 2018 - May 2020</h5>"
+        + "<ul>"
+        + "<li>Learned the basics to programming: programming Environment, basic Syntax, data types, variables, keywords, basic operators.</li>"
+        + "<li>Learned how to write to and from registers within MCU's and LCD's</li>"
+        + "<li>Learned using a analog to digital converter chip how to input voltage levels into an MCU.</li>"
+        + "<li>Completed my final semester of C programming with a <span class='red-text'>GPA</span> of <span class='red-text'>3.7</span>.</li>"
+        + "</ul>";
+    }
+</script>
